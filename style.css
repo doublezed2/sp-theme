@@ -1,0 +1,1452 @@
+/**************************
+     General CSS
+***************************/
+body{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 96px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Reem Kufi";
+}
+
+/**************************
+     Common Classes
+***************************/
+.btn-primary{
+  background-color:#EF5945;
+  color: #fff;
+  padding: 8px 12px;
+  margin-top:0px;
+  border: 0px;
+  border-radius:0px;
+}
+.btn-primary:hover,.btn-primary:active,.btn-primary:focus{
+  background-color:#D13A26 !important;
+}
+.btn-default{
+  background-color:#ef5945;
+  color:#ffffff;
+  padding: 13px 29px;
+  font-size: 15px;
+  border:1px solid #ef5945;
+  border-radius:0px;
+  transition: all .2s;
+  font-family: "Reem Kufi";
+}
+.btn-default:hover,.btn-default:active,.btn-default:focus{
+ background-color:transparent;
+ border:1px solid #ef5945;
+ color:#ef5945;
+}
+
+.btn-transparent{
+  background-color:transparent;
+  color:#ef5945;
+  padding: 13px 29px;
+  font-size: 15px;
+  border:1px solid #ef5945;
+  border-radius:0px;
+  transition: all .2s;
+  font-family: "Reem Kufi";
+}
+.btn-transparent:hover,.btn-transparent:active,.btn-transparent:focus{
+ background-color:#ef5945;
+ border:1px solid #ef5945;
+ color:#ffffff;
+}
+
+.btn-success{
+  border: 0px;
+  border-radius:0px;
+  letter-spacing: 1px;
+  padding: 12px 25px !important;
+  background: #4d6d80 !important;
+  color: #fff;
+}
+.btn-success:hover,.btn-success:active,.btn-success:focus{
+  background-color:#214860 !important ;
+}
+.hr-line{
+    border-bottom:solid 1px #e0dede;
+}
+
+/**************************
+          Navbar
+***************************/
+.navbar {
+  font-family: "Reem Kufi";
+}
+
+.navbar-brand{
+  padding: 0px;
+  height: auto;
+  margin-top: 5px;    
+}
+.navbar-brand img{
+  max-width: 90%;
+}
+.navbar-blue {
+    background-color: #193648;
+    border-color: #193648;
+    border-radius: 0px;
+    padding: 25px 30px;
+    margin-bottom: 0px;
+}
+.navbar-nav>li>a {
+    line-height: 20px;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #8d8d8d;
+}
+@media (min-width: 768px){
+    .navbar-nav {
+      float: left;
+      margin-left: 20px;
+      margin-top: 5px;
+  }
+}
+.btn-nav-demo{
+  color:#fff;
+  padding: 15px 35px;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  float: right;
+}
+.btn-nav-demo:hover{
+  background-color: #fff !important; 
+  color:#EF5945 !important;
+}
+/**************************
+          Home page
+***************************/
+.home-hero{
+  padding-top: 50px;
+  padding-bottom: 300px;
+  background-image: url('img/home-hero-bg.jpg');
+  background-size: cover;
+}
+.home-hero .left-col{
+  color: #fff;
+  padding: 0px 100px;
+}
+.home-hero .left-col h1{
+  font-size: 53px;
+  line-height: 63px;    
+}
+.home-hero .left-col p{
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 26px;
+}
+.gform {
+    width: 433px;
+    height: 568px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    /* display: block; */
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.logo-slider{
+  border: 1px solid #eaeaea;
+}
+.flexslider{
+    margin: 25px 0px;
+}
+.be-everywhere{
+  text-align: center;
+  padding: 85px 0px;
+  background-color: #F6F5F5;
+}
+.be-everywhere h2{
+  font-size: 45px;
+  color: #214860;
+  margin-bottom: 30px
+}
+.be-everywhere p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.be-everywhere .btn{
+  margin-top: 30px;
+}
+
+.testimonials{
+  background-image: url("img/testimonialsbackground.jpg");
+  background-size: cover;
+  height: 600px; 
+}
+/**************************
+          Blog page
+***************************/
+.blog-section{
+  padding:75px 20px;
+}
+.blog-section .top-title{
+font-weight:600;
+}
+.blog-section .top-sub-title{
+  padding-top:20px;
+}
+.blog-section .post-box{
+  width: 100%;
+  box-shadow: 0px 0px 4px 0px #dbdbdb;
+  height: 500px;
+  margin-top:25px;  
+}
+.blog-section .image-wrapper{
+  width: 100%;
+  height: 46%;
+  background-size: cover;
+  background-position: center center;
+  display: block; 
+  overflow: hidden;
+}
+.blog-section .image-wrapper .inner-image{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  display: block; 
+  transition: all 0.5s ease;
+}
+.blog-section .image-wrapper .inner-image:hover{
+ transform: scale(1.2);
+}
+
+.blog-section .post-wrapper{
+  padding: 0px 30px 30px 30px;
+  height: 54%;
+}
+.blog-section .post-wrapper .date{
+  color: #94a7b3;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.blog-section .post-wrapper .post-title{
+  display: block;
+  line-height: 25px;
+  overflow: hidden;
+  margin-bottom: 0px;
+  text-align: inherit;
+  margin-top: 10px;
+}
+.blog-section .post-wrapper .post-title{
+  color:#383d3f;
+  font-size: 18px;  
+}
+.blog-section .post-wrapper .post-text{
+  font-size: 13px;
+  color:#747474;
+  padding-top:15px;
+  padding-bottom:10px;     
+}
+.blog-section .post-wrapper .post-text:after{
+  content: "[...]";
+}
+
+/**************************
+        blog Single page
+***************************/
+.single-post-section .post-image{
+  width:100%;
+}
+.single-post-section .post-image img{
+  width:100%;
+  height: 500px;
+  margin: 0px auto;
+  object-fit: cover;
+  display: block;
+}
+.single-post-section .post-box{
+  width: 72%;
+  min-height: 400px;
+  margin: -200px auto 0px;
+  position: relative;
+  padding: 40px 100px 42px;
+  box-shadow: 0px 0px 4px 0px #dbdbdb;
+  background: #fcfcfc;
+}
+.single-post-section .post-box .title{
+  font-weight: 600;
+  text-align: center;
+  color: #214860;
+  font-size: 32px;
+  line-height: 1.5;
+}
+.single-post-section .post-box .post-wrapper{
+  padding-top:30px;
+}
+.single-post-section .post-box .post-wrapper p{
+  color: #333;
+  line-height: 27px;
+  font-size: 18px;
+}
+/**************************
+        about page
+***************************/
+.about-section{
+}
+.about-section .mission-value{
+  background-image:url('img/mission-value.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:133px 0px;
+}
+.about-section .mission-value h1{
+  color:#fff;
+  font-size: 52px;
+  font-weight: 500;
+
+}
+.about-section .mission-value p{
+  color:#fff;
+  font-size:22px;
+  padding-top:10px;
+}
+.about-section .who-are-we{
+  padding:50px 0px;
+}
+.about-section .who-are-we h1{
+  padding-bottom:18px;   
+}
+.about-section .who-are-we p{
+  color:#747474;
+  font-size:16px;
+}
+.about-section .who-are-we h1.our-value-title{
+  color:#315f7b;
+  padding-top:50px;
+  padding-bottom:30px;
+  font-family: 'Reem Kufi';
+}
+.about-section .who-are-we img{
+  margin:12px auto;
+  display:block;
+  width:275px;
+  height:275px; 
+}
+.about-section .values-helps{
+  background-color:#204761;
+  padding:60px 40px;
+}
+.about-section .values-helps h1{
+  font-size:50px;
+  font-weight: normal !important;
+  padding: 20px 50px 0px 70px;
+  text-align: left;
+  font-family: 'Reem Kufi';
+  color:#fff;
+  line-height:1.3;
+}
+.about-section .growth-development{
+  background-image:url('img/sdfg-1.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:103px 0px;
+}
+.about-section .growth-development .growth-box{
+  background-color: rgba(255,255,255,0.82);
+  padding: 35px 30px 35px 30px;
+  margin:10px 0px;
+}
+.about-section .growth-development .growth-box h3{
+  color:#214860;
+  font-family: 'Reem Kufi';
+  font-size:27px;
+}
+.about-section .growth-development .growth-box p{
+  font-size:16px;
+  padding-top:7px;
+}
+.about-section .trust-singleplatform{
+  padding:60px 0px;
+}
+.about-section .trust-singleplatform h1{
+  color:#315f7b;
+   font-family: 'Reem Kufi';
+   padding-bottom:30px;
+}
+
+/**************************
+        marketplace
+***************************/
+.marketplace-section .sp-partners{
+  background-image:url('img/marketplace-header.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:133px 0px;
+}
+.marketplace-section .sp-partners h1{
+  color:#fff;
+  font-size: 52px;
+  font-weight: 500;
+}
+
+/****our partners***/
+.marketplace-section .our-partners{
+  padding-top:100px;
+  padding-bottom:60px;
+}
+.marketplace-section .our-partners .container{
+  padding-left:70px;
+  padding-right:70px;
+}
+.marketplace-section .our-partners h1{
+  font-size: 34px;
+  color: #2a5973;
+}
+.marketplace-section .partner-box{
+  background-color:#FAFAFA;
+  box-shadow: 0px 0px 4px 0px #dbdbdb;
+  padding: 25px 25px 30px 25px;
+  height: 280px;
+}
+.marketplace-section .partner-box.long-box{
+  height: 365px;
+}
+.marketplace-section .img-wrapper{
+  display: block;
+  height: 30%;
+}
+.marketplace-section .text-wrapper{
+  display: block;
+  height: 70%;
+}
+.marketplace-section .partner-box .img-one{
+  width:230px;
+}
+.marketplace-section .partner-box .img-two{
+  width:230px;
+  margin-top:15px;
+}
+.marketplace-section .partner-box .img-three{
+  width:160px;
+  margin-top:-10px;
+}
+.marketplace-section .partner-box .img-four{
+  width:220px;
+}
+.marketplace-section .partner-box .img-five{
+  width:230px;
+  margin-top:23px;
+}
+.marketplace-section .partner-box .img-six{
+  width:130px;
+  margin-top:5px;
+}
+.marketplace-section .partner-content .partner-box h2{
+  padding-top:15px;
+  padding-bottom:10px;
+}
+.marketplace-section .partner-content .learn-more{
+  margin-top:25px;
+  margin-bottom:40px;
+}
+
+/****partner today***/
+.marketplace-section .partner-today{
+  padding-bottom:80px;
+}
+.marketplace-section .partner-today h1{
+  padding-top:60px;
+  font-size: 36px;
+  color: #2a5973;
+}
+.marketplace-section .partner-today a{
+  font-size:20px;
+  margin-top:30px;
+}
+
+
+/*******************
+  marketplace referral common
+********************/
+.marketplace-referral-banner{
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:123px 0px;
+}
+.marketplace-referral-banner h1{
+  color:#fff;
+  font-size: 70px;
+  font-weight: 600;
+}
+.marketplace-referral-body .container{
+  max-width: 1020px;
+}
+.marketplace-referral-body{
+  padding-bottom:100px;
+  padding-top:130px;
+}
+.marketplace-referral-body .marketplace-referral-content img{
+  width:100%;
+  display:block;
+  margin:auto;
+}
+.marketplace-referral-body .marketplace-referral-content .marketplace-referral-logo{
+  width:80%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.marketplace-referral-body .gform-title{
+  font-size: 28px;
+  color: #2a5973;
+  text-align: center;
+  line-height: 1.5;
+}
+.marketplace-referral-body .marketplace-referral-content p{
+  font-size:18px;
+  margin-top:30px;
+}
+.marketplace-referral-body .marketplace-referral-content ul li{
+  font-size:18px;
+  margin-top:7px;
+}
+.marketplace-referral-body .hr-line{
+  margin-top:100px;
+}
+
+/**************************
+      referral-chownow
+***************************/
+
+.chownow-section .chownow-banner{
+  background-image:url('img/chow-now-banner.jpg');
+}
+
+/**************************
+      referral-toast
+***************************/
+.toast-banner-section .toast-banner{
+ background-image:url('img/peoplecheers.jpg'); 
+}
+.toast-body .toast-content .toast-logo{
+  width:280px;
+}
+
+/**************************
+      referral-ordereze
+***************************/
+.ordereze-section .ordereze-banner{
+ background-image:url('img/ordereze_header.jpg'); 
+}
+.ordereze-section .ordereze-body .ordereze-logo{
+  width:100%;
+  margin-top:-10px;
+  margin-bottom:-15px;
+}
+
+
+/**************************
+      referral-corkguru
+***************************/
+.corkguru-section .corkguru-banner{
+ background-image:url('img/corkguru-1.jpg'); 
+}
+.corkguru-section .corkguru-body .corkguru-logo{
+  width:100%; 
+  margin-top:15px;
+  margin-bottom:-10px;
+}
+.corkguru-section .corkguru-body .corkguru-mob-img{
+  width:auto !important;
+}
+
+/**************************
+      referral-seated
+***************************/
+.seated-section .seated-banner{
+ background-image:url('img/diningtable.jpg'); 
+}
+.seated-section .seated-body .seated-logo{
+  width:auto !important;
+}
+.seated-section .seated-body .seated-partner-logos{
+  width:100% !important;
+}
+
+
+/**************************
+      referral-tripadvisor
+***************************/
+.tripadvisor-section .tripadvisor-banner{
+ background-image:url('img/li1213123.jpg'); 
+}
+.tripadvisor-section .tripadvisor-mobile-img{
+  display:block;
+  margin:auto;
+  width:auto !important;
+}
+.tripadvisor-section .tripadvisor-body strong{
+  font-size:21px;
+  color:#000;
+}
+.tripadvisor-section .tripadvisor-body ul{
+  margin-top:30px;
+}
+.tripadvisor-section .hr-line{
+  margin-bottom:70px;
+}
+.tripadvisor-section .tripadvissor-col-img{
+  margin-top:10px;
+  display:block;
+  margin:auto;
+}
+.tripadvisor-section .btn-success{
+  font-size:22px;
+  margin-top:50px;
+}
+
+
+/**************************
+    partner with us page
+***************************/
+.partner-section .partner-banner{
+  background-image:url('img/Partnership-Page-Banner.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:105px 0px;
+}
+.partner-section .partner-banner h1{
+  color:#fff;
+  font-size: 55px;
+  font-weight: 500;
+  padding-bottom:10px;
+}
+.partner-section .partner-banner p{
+  color:#fff;
+  font-size: 20px;
+  padding-top: 6px;
+}
+.partner-section .partner-body .container{
+  max-width: 1020px;
+}
+
+.partner-body .partners-trusted{
+  padding-top:80px;
+}
+.partner-body .partners-trusted h1{
+  color:#37698a;
+}
+.partner-body .partners-trusted p{
+  font-size: 20px;
+  padding-top:20px;
+}
+.partner-body .partners-trusted .btn-primary{
+  font-size:17px;
+  display:block;
+  padding:10px 25px;
+  white-space:pre-wrap;
+  margin-top:10px;
+}
+.partner-body .partners-trusted h3{
+  color: #0c1519;
+  padding-top:80px;
+  font-family: 'Montserrat', sans-serif !important;
+  padding-bottom:5px;
+  font-size:21px;
+}
+.partner-body .partners-trusted img{
+  width:100%;
+}
+.partner-body .part-category{
+  padding-bottom:40px;
+}
+.partner-body .part-category .hr-line{
+  margin-top:70px;
+  margin-bottom:70px;
+}
+.partner-body .part-category h1{
+  font-size:20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top:0px;
+}
+.partner-body .part-category p{
+  font-size:18px;
+  margin-top:18px;
+}
+.partner-body .part-category .btn-primary{
+  padding:10px 24px;
+  margin-top:15px;
+  margin-bottom:20px;
+}
+.partner-body .part-category .part-cat-img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+    margin-bottom:20px;
+}
+.partner-body .part-category .part-cat-img.cat-one-img{
+  background-image: url('img/PartnershipPage_API.jpg');
+  height:450px;
+}
+.partner-body .part-category .part-cat-img.cat-two-img{
+  background-image: url('img/PartnershipPage_SAPI.jpg');
+  height:450px;
+}
+.partner-body .part-category .part-cat-img.cat-three-img{
+  background-image: url('img/PartnershipPage_Partnerships.jpg');
+  height:380px;
+}
+.partner-body .part-category #CartTwo h1,p,a{
+  
+}
+
+/**************************
+partner categories common class
+***************************/
+.partner-referral-banner{
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:123px 0px;
+}
+.partner-referral-banner h1{
+  color:#fff;
+  font-size: 58px;
+  max-width:1100px;
+  font-family: 'Montserrat', sans-serif !important;
+  margin:auto;
+  line-height: 1.4;
+}
+.partner-referral-body .container{
+  max-width: 1020px;
+}
+.partner-referral-body{
+  padding-bottom:100px;
+  padding-top:110px;
+}
+.partner-referral-body .partner-referral-content img{
+  width:100%;
+  display:block;
+  margin:auto;
+}
+.partner-referral-body .partner-referral-content p{
+  font-size:18px;
+  margin-top:30px;
+}
+.partner-referral-body .partner-referral-content h1{
+  font-family: 'Montserrat', sans-serif !important;
+  font-size:20px;
+  font-weight: bold;
+  color:#000;
+  padding-bottom:15px;
+}
+.partner-referral-body .partner-referral-content ul li{
+  font-size:18px;
+  margin-top:7px;
+}
+
+/**************************
+partner access-our-data page
+***************************/
+.access-our-data-section .access-data-banner{
+ background-image:url('img/Partnership_API-Banner.png'); 
+}
+
+/**************************
+partner access-our-data page
+***************************/
+.actions-orders-section .actions-orders-banner{
+ background-image:url('img/Partnership_SAPI-Banner.png'); 
+}
+
+/**************************
+partner reseller-partnerships page
+***************************/
+.reseller-partnerships-section .reseller-partnerships-banner{
+ background-image:url('img/Partnership_Reseller-Banner.png'); 
+}
+
+
+
+
+/**************************
+    lp menu page
+***************************/
+.menu-lp-section{
+  padding-top:60px;
+  padding-bottom:70px;
+  color:#fff;
+  background-image: url(https://singleplatform.com/wp-content/uploads/2019/02/header-image.jpg);
+  background-color: transparent;
+}
+.menu-lp-section .more-customers h1{
+  
+}
+.menu-lp-section .more-customers .lp-form-title{
+  font-size:33px;
+  margin-top:0px;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.menu-lp-section .more-customers .singleplatform-menu-lp{
+  width:250px;
+}
+.menu-lp-section .more-customers .menu-lp-heading{
+  font-size:28px;
+  padding-top:25px;
+  padding-bottom:50px;
+}
+.menu-lp-section .more-customers .more-customers-left-content p{
+  font-size:18px;
+  padding-bottom:10px;
+}
+
+
+.menu-lp-section .menu-lp-partners {
+  padding-top:60px;
+  padding-bottom:40px;
+}
+.menu-lp-section .menu-lp-partners img{
+  width:100%;
+  display:block;
+  margin:auto;
+}
+
+.menu-lp-section .watch-lp-menu{
+  padding-top:25px;
+}
+.menu-lp-section .watch-lp-menu h1{
+  font-size:30px;
+}
+.menu-lp-section .watch-lp-menu iframe{
+  margin-top:40px;
+  margin-bottom:30px;
+}
+.menu-lp-section .watch-lp-menu .btn-primary{
+  margin-top:30px;
+  font-size:17px;
+  padding:10px 25px;
+}
+
+
+/**************************
+    careers page
+***************************/
+.careers-section .careers-banner{
+  background-image:url('img/creer1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:105px 0px;
+}
+.careers-section .careers-banner h1{
+  color:#fff;
+  font-size: 55px;
+  font-weight: 500;
+  padding-bottom:10px;
+}
+.careers-section .careers-banner p{
+  color:#fff;
+  font-size: 20px;
+  padding-top: 6px;
+}
+.careers-section .careers-body .container{
+  max-width: 1020px;
+}
+
+.careers-section .careers-body{
+  padding-top:70px;
+  padding-bottom:70px;
+}
+.careers-section .careers-body .sp-way-content{
+  padding-top:20px;
+}
+.careers-section .careers-body .sp-way-content h1{
+  color:#2a5973;
+  padding-bottom:20px;
+}
+.careers-section .careers-body .sp-way-content p{
+  font-size:18px;
+  max-width:770px;
+  margin:auto;
+  margin-top:20px;
+}
+.careers-section .careers-body .hr-line{
+  margin-top:80px;
+  margin-bottom:80px;
+}
+.careers-section .sp-life-content h1{
+  text-align: center;
+  color: #2a5973;
+  font-size: 2em;
+  padding-top:10px;
+  padding-bottom:20px;
+  font-weight: bold;
+}
+.careers-section .sp-life-content p{
+  font-size:17px; 
+}
+.careers-section .sp-life-content img{
+  display:block;
+  margin:auto;
+  width:auto;
+}
+
+.careers-section .endless-content h1{
+  color:#2a5973;
+  padding-bottom:20px;
+}
+.careers-section .endless-content p{
+  font-size:18px;
+}
+.careers-section .endless-content img{
+  width:75px;
+  display:block;
+  margin:auto;
+  margin-top:50px;
+  margin-bottom:20px;
+}
+
+.careers-section .opportunities-content h1{
+  color:#2a5973;
+  padding-bottom:40px;
+}
+.careers-section .opportunities-content a{
+  font-size:22px;
+  display:block;
+  color:#4d6d80;
+  text-decoration: underline;
+  margin-top:10px;
+}
+.careers-section .opportunities-content a:hover,.careers-section .opportunities-content a:focus,.careers-section .opportunities-content a:visited{
+  color:#000;
+}
+
+
+
+/**************************
+    feature-info-section
+***************************/
+.feature-info-section{
+  padding:70px 0px;
+}
+.feature-info-section .container{
+  max-width: 1020px;
+}
+
+
+.feature-info-section .feature-info-body .feature-info-title{
+  color: #2a5973;
+  font-size: 36px;
+}
+.feature-info-section .feature-info-body{
+  padding-bottom:100px;
+}
+.feature-info-section .feature-info-body p{
+  color: #0c1519;
+  font-size: 18px;
+  margin-top:20px;
+}
+
+.feature-info-section .feature-info-body .feature-info-content{
+  padding-bottom:220px;
+  padding-top:220px;
+} 
+.feature-info-section .feature-info-body  h1{
+  margin-top:0px;
+  font-weight: bold;
+  font-size: 22px;
+  color:#000;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.feature-info-section .feature-info-body  p{
+  font-size:18px;
+  padding-top:5px;
+}
+.feature-info-section .feature-info-body img{
+  width:94%;
+  display:block;
+  margin:auto;
+}
+.feature-info-section .feature-info-body a{
+  color:#4d6d80;  
+  text-decoration: none;
+  font-weight: bold;
+}
+.feature-info-section .feature-info-body ul li{
+  font-size:18px;
+  margin-top:13px;
+}
+.feature-info-section .feature-info-body img:hover{
+  transition: -webkit-transform .35s;
+  transition: transform .35s;
+  transition: transform .35s,-webkit-transform .35s;
+  box-shadow: 0 3px 15px rgba(0,0,0,.2);
+}
+
+.feature-info-section .feature-related-topic h1{
+  font-size: 35px;
+  color: #2a5973;
+  padding-bottom:40px;
+}
+.feature-info-section .feature-related-topic img{
+  display: block;
+  margin:auto;
+  width:170px;
+  transition: all 0.5s ease;
+}
+.feature-info-section .feature-related-topic .related-topic-img-2{
+width:195px;
+}
+.feature-info-section .feature-related-topic .related-topic-img-3{
+width:223px;
+}
+.feature-info-section .feature-related-topic .related-topic-img-4{
+width:200px;
+}
+.feature-info-section .feature-related-topic .related-topic-img-5{
+width:95px;
+}
+.feature-info-section .feature-related-topic .related-topic-img-6{
+width:175px;
+}
+.feature-info-section .feature-related-topic a{
+  padding-top:25px;
+  font-size:16px;
+  color:#2a5973;
+  display:block;
+  padding-bottom:50px;
+}
+
+
+
+/**************************
+        features page
+***************************/
+.features-section .features-banner{
+   background-image:url('img/bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:95px 0px;
+}
+
+.features-section h1{
+  color:#214860;
+  font-size:34px;
+}
+.features-section p{
+  margin-top: 30px;
+  font-size: 19px;
+}
+.features-section strong{
+  font-size:20px;
+  font-weight: bold;
+}
+
+.features-section .features-banner h1{
+  color:#fff;
+  font-size: 55px;
+  font-weight: 500;
+  padding-bottom:10px;
+}
+.features-section .features-banner p{
+  color:#fff;
+  font-size: 20px;
+  padding-top: 6px;
+}
+.features-section .features-banner a{
+  border-radius: 4px;
+  padding: 13px 35px 13px;
+  text-align: center;
+  color: #fff;
+  display:inline-block;
+  margin-top:15px;
+  font-size:15px;
+  background: transparent;
+  text-decoration: none;
+  border: 1px solid #ef5945 !important;
+}
+.features-section .features-banner a:hover,.features-section .features-banner a:focus,.features-section .features-banner a:active{
+  background-color:#ef5945;
+  transition: 0.25s;  
+}
+
+.features-section .features-banner i{
+  font-size:11px;
+  margin-left:5px;
+}
+
+.features-section .hungry-diners{
+  padding-top:50px;
+}
+.features-section .hungry-diners h1{
+  padding-top:20px;
+}
+.features-section .hungry-diners img{
+  display:block;
+  margin-left:auto;
+}
+
+
+.features-section .white-glove{
+  padding:100px 0px;
+}
+
+
+.features-section .blue-points img{
+  width:100%;
+}
+
+.features-section .features-quote{
+  background-image:url('img/bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:130px 0px;
+}
+.features-section .features-quote p{
+ color:#fff;
+ max-width: 870px;
+ margin:auto;
+ font-size:20px;
+ line-height: 1.6;
+}
+.features-section .features-quote i{
+  color: #94a7b3;
+  font-size:26px;
+  margin-bottom:20px;
+} 
+.features-section .jl-quote{
+  color: #94a7b3 !important;
+  font-size:22px;
+  margin-top:18px !important;
+  font-weight: bold;
+}
+
+
+.features-section .technology-suite{
+  padding-top:90px;
+}
+.features-section .technology-suite img{
+  margin-top:50px;
+  margin-bottom:15px;
+}
+
+/**************************
+          Contact-US
+***************************/
+.contact-us .main_area{
+  color: #fff;
+  height: 398px;
+  background-image: url(https://i2b7m8w8.stackpathcdn.com/wp-content/uploads/2019/03/shutterstock_330541472.jpg);
+  background-position: center center;
+  background-repeat: no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.contact-us .main_area h1{
+  margin-top: 130px;
+  font-size: 62px;
+  font-family: 'Montserrat';
+}
+.contact-us .main_area p{
+  font-size: 22px;
+}
+
+.contact-us .details-area{
+  margin-top: 60px;
+}
+
+.contact-us .details-area p{
+  font-size: 18px
+}
+
+/**************************
+          FAQ-PAGE CSS
+***************************/
+
+.faq-section {    
+    margin-top: 100px;
+    font-family: "Reem Kufi";
+    font-weight: 400;
+    color: #193648;
+}
+
+.faq-section h1{
+  font-size: 38px; 
+}
+
+.faq-section h2{
+  margin-top: 60px;
+  font-size: 34px;
+}
+
+
+/* Collapse*/
+.faq-questions {
+  padding: 0 30px;
+  padding-top: 145px;
+}
+
+.q-container{
+  padding-bottom: 30px;
+}
+
+.faq-questions .panel-title a{
+    font-family: "Reem Kufi";
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    display: block;
+    padding: 12px 15px 12px 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    position: relative;
+}
+.faq-questions .panel-title a:before{
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #444444;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fdfbfb;
+    text-align: center;
+    text-shadow: none;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+.faq-questions .panel-title a.collapsed:before{ content: "\f067"; }
+
+.faq-questions .panel-body{
+    color: #444444;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 10px;
+    padding-left:50px;
+}
+
+/**************************
+          Footer
+***************************/
+footer{
+  background: #214860;
+  padding: 28px 18px 22px 24px;
+  color: #fff
+
+}
+
+footer ul li{
+  text-transform: uppercase;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 12px;
+  padding: 5px;
+}
+
+footer ul li a{
+  color: #fff;
+}
+
+footer ul li a:hover,footer ul li a:active,footer ul li a:visited{
+  color: #fff;
+  text-decoration: none !important;
+}
+
+footer .footer-left-img{
+  padding-right: 70px;
+  vertical-align: top;
+}
+
+footer .footer-address{
+  font-family: 'Montserrat';
+  font-size: 12px;
+  text-align: right;
+}
+
+footer .footer-social-icons{
+  margin-top: 20px;
+  margin-left: -15px; 
+}
+
+footer .footer-social-icons a{
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+footer .footer-bottom{
+  padding-top: 90px;
+}
+
+footer .footer-bottom p{
+  margin: 5px;
+}
+
+footer .footer-bottom p a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ==========================================================================
+  custom responsive styles
+   ========================================================================== */
+/*992*/
+@media (max-width: 1199px) {
+  .marketplace-section .our-partners .container{
+  padding-left:5px;
+  padding-right:5px;
+}
+.marketplace-section .partner-box{
+  padding: 25px 12px 30px 12px;
+}
+}
+/*768*/
+@media (max-width: 991px) {
+
+.single-post-section .post-box{
+  width: 92%;
+  margin: -200px auto 0px;
+  padding: 40px 70px 42px;
+}
+.about-section .values-helps{
+  padding:60px 20px;
+}
+.about-section .values-helps h1{
+  font-size:40px;
+  padding: 20px 30px 0px 30px;
+  text-align: center;
+}
+.marketplace-section .partner-box{
+  padding: 25px 25px 30px 25px;
+}
+.marketplace-section .our-partners .container{
+  padding-left:15px;
+  padding-right:15px;
+}
+.marketplace-referral-body .marketplace-referral-content img{
+  width:80%;
+  display:block;
+  margin:auto;
+}
+.marketplace-referral-body .marketplace-referral-content .marketplace-referral-logo{
+  width:60%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.feature-info-section .feature-info-body img{
+  margin-bottom:10px;
+  margin-top:5px;
+}
+.feature-info-section .feature-info-body img:hover{
+  box-shadow: none;
+}
+}
+/*551*/
+@media (max-width: 767px) {
+  .blog-section{
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .single-post-section .post-box{
+  width: 92%;
+  margin: -200px auto 0px;
+  padding: 40px 50px 42px;
+}
+.menu-lp-section .watch-lp-menu iframe{
+  width:100%;
+  height:330px;
+
+}
+.careers-section .opportunities-content a{
+  text-align: center;
+  display: block;
+}
+
+}
+/*320*/
+@media(max-width:550px) {
+.blog-section .top-title{
+    font-size: 31px;
+}
+.single-post-section .post-box{
+  width: 97%;
+  margin: -200px auto 0px;
+  padding: 40px 22px 42px;
+}
+.about-section .values-helps{
+  padding:60px 0px;
+}
+.about-section .values-helps h1{
+  font-size:40px;
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+}
+.chownow-section .chownow-body .chownow-content img{
+  width:95%;
+  display:block;
+  margin:auto;
+}
+.chownow-section .chownow-body .chownow-content .chow-now-logo{
+  width:95%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.careers-section .sp-life-content img{
+  width:100%;
+}
+}
+@media(max-width:340px) {
+}
