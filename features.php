@@ -33,8 +33,55 @@ include("header.php");
      </div>
    </div>
 
-   <!-- <div class="partner slider">
-   </div> -->
+    <div class="logo-slider">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <img src="img/slides/google.png" />
+                  </li>
+                  <li>
+                    <img src="img/slides/facebook.png" />
+                  </li>
+                  <li>
+                    <img src="img/slides/yelp.png" />
+                  </li>
+                  <li>
+                    <img src="img/slides/YP_logo_logotype.png" />
+                  </li>
+                  <li>
+                    <img src="img/slides/TripAdvisor_logo.png" />
+                  </li>
+                  <li>
+                    <img src="img/slides/Foursquare_logo.png" />
+                  </li>
+                  <li>
+                    <img src="img/slides/google.png" />
+                  </li>
+                  <li>
+                    <img src="img/slides/facebook.png" />
+                  </li>
+                  <li>
+                    <img src="img/slides/yelp.png" />
+                  </li>
+                  <li>
+                    <img src="img/slides/YP_logo_logotype.png" />
+                  </li>
+                  <li>
+                    <img src="img/slides/TripAdvisor_logo.png" />
+                  </li>
+                  <li>
+                    <img src="img/slides/Foursquare_logo.png" />
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
 
    <div class="white-glove">
      <div class="container">
@@ -91,6 +138,71 @@ include("header.php");
            <img src="img/final-menu-content-icon.png">
            <h1>Searchable Menu Content</h1>
            <p>With 93% of people reading menus online, you need to make sure your menu is visible. A PDF can’t be searched. SinglePlatform makes your menu searchable so people can find you on sites like Google, Yelp, and Bing.</p>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div class="features-join-thousands">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12 text-center">
+           <h1>Join Thousands of Local Businesses Who Trust SinglePlatform</h1>
+           <a href="#">Request Demo</a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+    <div class="features-online-review">
+     <div class="container">
+       <div class="row">
+         <div class="col-xs-12 col-md-6">
+           <h1>The Power of Online Reviews</h1>
+           <p>Word of mouth is a powerful tool, make sure it’s working for you by listening to your customers. Our Review Intelligence tool tells you how your restaurant is performing in service, staff, ambiance, price, and food so you can identify areas in need of improvement.</p>
+         </div>
+         <div class="col-xs-12 col-md-6">
+           <img src="img/features10.png">
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="hr-line"></div>
+
+   <div class="features-online-presence">
+     <div class="container">
+       <div class="row">
+         <div class="col-xs-12 col-md-12 text-center">
+           <h1>Manage Your Online Presence On A Single Platform</h1>
+           <p>Manage your social media, online reviews, menus and restaurant information in one platform online.</p>
+           <a href="#">Learn More</a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="hr-line"></div>
+
+   <div class="feature-more-customers">
+     <div class="container">
+       <div class="row">
+         <div class="col-xs-12 col-md-6">
+           <img src="img/features13.png">
+         </div>
+         <div class="col-xs-12 col-md-6 text-center">
+           <h1>Is Your Website Bringing You More Customers?</h1>
+           <p>We’ll build you a branded website and mobile site complete with a full integration to your SinglePlatform-powered menu.</p>   
+           <p>Show your customers what’s special about your restaurant before they even step foot in your door.</p>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div class="features-online-presence-two">
+     <div class="container">
+       <div class="row">
+         <div class="col-xs-12 col-md-12 text-center">
+           <h1>Manage Your Online Presence On A Single Platform</h1>
+           <a href="#">Learn More</a>
          </div>
        </div>
      </div>
