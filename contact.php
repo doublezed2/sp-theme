@@ -1,21 +1,19 @@
-<?php 
+<?php
 include("header.php");
 ?>
-
-   <section class="contact-us">    
-      <div class="main_area">  
-        <div class="container-fluid">    
-          <div class="row">
-            <div class="col-xs-12 col-md-12">
-              <h1 class="text-center">Contact Us</h1>
-              <p class="text-center">Questions? Comments? Send us an email using the form below, or give us a call at 877-564-8728.</p>
-            </div>
-          </div>
+<div class="contact-us">
+  <section class="contact-us-banner sp-header-banner2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Contact Us</h1>
+          <p class="text-center">Questions? Comments? Send us an email using the form below, or give us a call at 877-564-8728.</p>
+        </div>
       </div>
     </div>
-
-
-    <div class="container details-area">
+  </section>
+  <section class="details-area">
+    <div class="container">
       <div class="row">
         <div class="col-md-6">
           <div>
@@ -30,14 +28,11 @@ include("header.php");
             <p>877-564-8728</p>
             <p>Mon – Fri, 9am – 6pm EST</p>
           </div>
-        
           <div class="part">
             <h3>Email</h3>
             <hr>
             <p>customersuccess@singleplatform.com</p>
-          
           </div>
-        
           <div class="part">
             <h3>Mail</h3>
             <hr>
@@ -46,11 +41,11 @@ include("header.php");
             <p>New York, NY 10004</p>
           </div>
         </div>
-    </div>  
-
+      </div>
+    </div>
   </section>
   
-
-<?php 
+</div>
+<?php
 include("footer.php");
 ?>

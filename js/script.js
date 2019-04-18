@@ -29,7 +29,30 @@
       keyboard: true,  
       move: 1,
       directionNav: false
-
     });
+
+	/*marketing-resources flex slider*/
+    $('.success-stories-flexslider').flexslider({
+       animation: "slide",
+	    animationLoop: true,
+	    itemWidth: 210,
+	    itemMargin: 5,
+	    minItems: 1,  
+      	maxItems: 4, 
+      	touch: true,
+      	keyboard: true,
+      	move: 1,
+      	controlNav: false,
+      	slideshowSpeed: 2500,
+    });
+    $('#preButton').on('click', function(){
+    $('.success-stories-flexslider').flexslider('prev');
+    return false;
+	});
+	 $('#nextButton').on('click', function(){
+    $('.success-stories-flexslider').flexslider('next');
+    return false;
+	});
+   
 });
 })(jQuery);

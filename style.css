@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5,h6{
   margin-top:0px;
   border: 0px;
   border-radius:0px;
+  white-space: normal;
 }
 .btn-primary:hover,.btn-primary:active,.btn-primary:focus{
   background-color:#D13A26 !important;
@@ -62,12 +63,45 @@ h1,h2,h3,h4,h5,h6{
   padding: 12px 25px !important;
   background: #4d6d80 !important;
   color: #fff;
+  white-space: normal;
 }
 .btn-success:hover,.btn-success:active,.btn-success:focus{
   background-color:#214860 !important ;
 }
 .hr-line{
     border-bottom:solid 1px #e0dede;
+}
+.sp-header-banner,.sp-header-banner2{
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:123px 0px;
+}
+.sp-header-banner h1{
+  color:#fff;
+  font-size: 52px;
+  font-weight: 500;
+}
+.sp-header-banner2{
+  padding:110px 0px;
+}
+.sp-header-banner2 h1{
+  color:#fff;
+  font-size: 55px;
+  font-weight: 500;
+}
+.sp-header-banner2 p{
+  color:#fff;
+  margin-top:15px;
+  font-size:18px;
+}
+.sp-heading{
+  color:#2a5973;
+  font-size:34px;
+  line-height: 1.3;
 }
 
 /**************************
@@ -293,28 +327,8 @@ font-weight:600;
 /**************************
         about page
 ***************************/
-.about-section{
-}
 .about-section .mission-value{
   background-image:url('img/mission-value.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding:133px 0px;
-}
-.about-section .mission-value h1{
-  color:#fff;
-  font-size: 52px;
-  font-weight: 500;
-
-}
-.about-section .mission-value p{
-  color:#fff;
-  font-size:22px;
-  padding-top:10px;
 }
 .about-section .who-are-we{
   padding:50px 0px;
@@ -1438,18 +1452,833 @@ width:175px;
 
 
 /**************************
-          Contact-US
+      plan page
 ***************************/
-.contact-us .main_area{
-  color: #fff;
-  height: 398px;
-  background-image: url(https://i2b7m8w8.stackpathcdn.com/wp-content/uploads/2019/03/shutterstock_330541472.jpg);
+.plan-section{
+  background-image: url('img/pricing_plans_bg.jpg');
   background-position: center center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-bottom: 150px;
+  padding-left: 20px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.plan-section .plan-text{
+  color:#fff;
+}
+.plan-section .plan-text h1{
+  font-size:53px;
+}
+.plan-section .plan-text p{
+  font-size:22px;
+}
+
+
+.plan-section .plan-table{
+  padding-top:100px;
+}
+.plan-section .plan-box-container{
+  background-color:#FFFFFF;
+   box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.08);
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.08);
+}
+
+.plan-section .plan-box-container:hover{
+  transform: scale(1.008);
+    transition: all 0.2s ease;
+}
+
+.plan-section .plan-box-container .plan-header{
+  background-color:#F5F5F5;
+  padding-top:28px;
+  padding-bottom:30px;
+  position: relative;
+  border-bottom: 1px solid #e5e5e5;
+}
+.plan-section .plan-box-container .plan-header h1{
+  margin: 12px;
+  margin-bottom: 20px;
+  color: #94a7b3;
+  font-size:35px;
+}
+.plan-section .plan-box-container .plan-header h2{
+  margin-top:20px;
+  margin-bottom: 15px;
+  color: #94a7b3;
+  font-size:35px;
+}
+.plan-section .plan-box-container .plan-header h3{
+  
+  margin-bottom: 20px;
+  display: block;
+  font-size:16px;
+  color:#747474;
+  letter-spacing: 1px;    
+}
+
+.plan-section .plan-box-container .plan-header a{
+  color: #94a7b3;
+  padding: 13px 20px;
+  border: 2px solid #94a7b3;
+  border-radius: 2px;
+  font-size: 1.1em;
+  width: 200px;
+  height: 52px;
+  margin: 0px auto;
+  background: #fff;
+  z-index: 5;
+  position: absolute;
+  bottom: -26px;
+  left: 0px;
+  right: 0px;
+}
+.plan-section .plan-box-container .plan-header a div{
+  position: relative;
+}
+.plan-section .plan-box-container .plan-header a i{
+  font-size:23px;
+  position: absolute;
+  right:-15px;
+}
+.plan-section .plan-box-container .plan-header a:hover,.plan-section .plan-box-container .plan-header a:focus{
+  background: #94a7b3;
+  text-decoration: none;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.plan-section .plan-box-container .plan-body{
+  padding-top:50px;
+}
+
+ .plan-section .plan-box-container .panel-default{
+  border:none;
+  border-bottom: 1px solid #e5e5e5;
+}
+ .plan-section .plan-box-container  .panel-default>.panel-heading+.panel-collapse>.panel-body{
+  border:none;
+  padding-left:45px;
+  padding-top:0px;
+  font-size:13px;
+}
+
+
+.plan-section .plan-box-container .plan-no-include{
+  padding: 20px 15px 20px 20px;
+  background-color:#fff;
+  border-bottom: 1px solid #e5e5e5;
+  color:#dddddd;
+  font-size:17px;
+}
+.plan-section .plan-box-container .plan-no-include i{
+  margin-right:5px;
+}
+ 
+
+
+.plan-section .plan-box-container .plan-body-title{
+  background: #94a7b3;
+  color: #fff;
+  padding: 8px 20px;
+  font-size:21px;
+  margin-bottom:0px;
+}
+.plan-section .plan-box-container .panel-heading{
+  padding: 20px 15px 20px 20px;
+  background-color:#fff;
+  border:none !important;
+   
+}
+.plan-section .plan-box-container .panel-heading a{
+color:#6b6b6b;
+font-size:17px;
+text-decoration: none;
+ font-family: "Reem Kufi";
+
+}
+.plan-section .plan-box-container .panel-heading i{
+  margin-right:5px;
+}
+
+.plan-section .plan-box-two .plan-header{
+  background-color:#fff;
+}
+.plan-section .plan-box-two .plan-header h1{
+  color:#ef5945;
+}
+.plan-section .plan-box-two .plan-header h2{
+ color:#ef5945;
+}
+
+.plan-section .plan-box-two .plan-header a{
+  color: #fff;
+  border: 2px solid #ef5945;
+  background: #ef5945;
+}   
+.plan-section .plan-box-two .plan-header a:hover,.plan-section .plan-box-two .plan-header a:focus{
+  background: #fff;
+  color: #ef5945;
+}
+.plan-section .plan-box-two .plan-body-title{
+  background: #F87766;
+}
+.plan-section .plan-box-two .panel-heading i{
+  color: #F87766;
+}
+
+.plan-section .plan-box-three .plan-header{
+  background-color:#F5F5F5;
+}
+.plan-section .plan-box-three .plan-header h1{
+  color:#214860;
+}
+.plan-section .plan-box-three .plan-header h2{
+ color:#214860;
+}
+.plan-section .plan-box-three .plan-header a{
+  color: #214860;
+  border: 2px solid #214860;
+  background: #fff;
+}   
+.plan-section .plan-box-three .plan-header a:hover,.plan-section .plan-box-three .plan-header a:focus{
+  background: #214860;
+  color: #fff;
+}
+.plan-section .plan-box-three .plan-body-title{
+  background: #214860;
+}
+.plan-section .plan-box-three .panel-heading i{
+  color: #214860;
+}
+
+.plan-section .plan-box-container .panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: #e0dede;         /* adjust as needed */
+    font-size:14px;
+}
+.plan-section .plan-box-container .panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+
+
+
+/**************************
+    parked-domain page
+***************************/
+.parked-domain-section{
+  padding:90px 0px 40px 0px;
+}
+.parked-domain-section .container{
+  max-width:1050px;
+}
+.parked-domain-section img{
+  width:95%;
+  margin:auto;
+  display:block;
+}
+.parked-domain-section a{
+  color:#ef5945;
+}
+.parked-domain-section h1{
+  font-size:32px;
+  margin-top:35px;
+  margin-bottom:25px;
+}
+.parked-domain-section p{
+  font-size:18px;
+  line-height: 1.5;
+  margin-bottom:26px;
+}
+.parked-domain-section .footer-copy-rights{
+  font-size:24px;
+  margin-top:90px;
+}
+
+
+
+/**************************
+  homestead-singleplatform-partnership page
+***************************/  
+.homestead-partnership-section .homestead-banner{
+  background-image:url('img/header-shape.png');
+  background-color: #1e73be;
+  background-image: url(https://i2b7m8w8.stackpathcdn.com/wp-content/uploads/2018/12/header-shape.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: 90px;
+  padding-right: 30px;
+  padding-bottom: 90px;
+  padding-left: 30px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:#fff;
+}
+.homestead-partnership-section .homestead-banner h1{
+  font-size:30px;
+  margin-bottom:25px;
+}
+.homestead-partnership-section .homestead-banner p{
+  font-size:18px;
+  margin-bottom:23px;
+}
+.homestead-partnership-section .homestead-banner p strong{
+  color:lightgreen;
+}
+.homestead-partnership-section .reach-more-customers .img-box{
+  padding: 0px;
+  background-image: url('img/restaurant-advertising-that-works.jpg');
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 630px;
+  height: auto;
+}
+.homestead-partnership-section .reach-more-customers .content-box{
+  padding:150px 35px;
+}
+.homestead-partnership-section .reach-more-customers h1{
+  font-size:27px;
+  margin-bottom:25px;
+}
+.homestead-partnership-section .reach-more-customers p{
+  font-size:18px;
+  margin-bottom:20px;
+}
+.homestead-partnership-section .reach-more-customers a{
+  font-size:17px;
+  margin-top:5px;
+  padding:10px 27px;
+}
+.homestead-partnership-section .happy-customers {
+  background-color:#1E73BE;
+  color:#fff;
+}
+.homestead-partnership-section .happy-customers .img-box{
+  background-image:url('img/accurate-menu-and-listings.jpg'); 
+  background-position: left center;
+}
+
+.homestead-partnership-section .customers-says{
+  padding:80px 0px;
+}
+.homestead-partnership-section .customers-says h1{
+  font-size:30px;
+}
+.homestead-partnership-section .customers-says .few-word{
+  font-size:22px;
+  max-width:970px;
+  margin:auto;
+  margin-top:30px;
+  margin-bottom:20px;
+} 
+.homestead-partnership-section .customers-says .few-word-long{
+  font-size:18px;
+  max-width:940px;
+  margin:auto;
+  color:#747474;
+  margin-top:30px;
+  margin-bottom:20px;
+} 
+.homestead-partnership-section .customers-says .customers-name{
+  font-size:20px;
+  font-weight: bold;
+  max-width:940px;
+  margin:auto;
+  color:#333333;
+  margin-top:30px;
+  margin-bottom:20px;
+} 
+
+
+/**************************
+        thank you page
+***************************/
+.thank-you-section .thank-you-text h1{
+  margin-top:130px;
+}
+.thank-you-section .thank-you-text p{
+  font-size:18px;
+  margin-bottom:40px;
+}
+.thank-you-section .thank-you-frame{
+  background-color:#F1F5F6;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.thank-you-section .thank-you-frame .col-md-12{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+
+/**************************
+   partner-program-center
+***************************/
+.partner-program-section .partner-program-banner{
+  background-image:url('img/header-resourcepage.jpg');
+}
+.partner-program-section .service-offerings{
+  padding-top:60px;
+}
+.partner-program-section p{
+  font-size: 19px;
+  color: #0c1519;
+  padding-bottom: 15px;
+  padding-top: 23px;
+}
+.partner-program-section .service-offerings img{
+  width:100%;
+  margin-top:17px;
+}
+.partner-program-section .container{
+  max-width:1050px;
+}
+.partner-program-section .hr-line{
+  margin-top:80px;
+  margin-bottom:40px;
+}
+.partner-program-section .refer-friend-question{
+  padding-bottom:80px;
+}
+.partner-program-section .refer-friend-question .btn-success{
+  font-size:20px;
+  padding:13px 37px !important;
+}
+.partner-program-section .refer-friend-question h1{
+ font-size:40px;
+}
+.partner-program-section .refer-friend-question p{
+  padding-top:0px;
+  padding-top:0px;
+}
+.partner-program-section .refer-friend-question .question-sec h1{
+  padding-bottom:15px;
+}
+.partner-program-section .refer-friend-question .question-sec a{
+  color: #4d6d80;
+  text-decoration: underline;
+}
+
+
+/**************************
+    certification-program
+***************************/
+.certification-program-section .certification-program-banner{
+  background-image: url('img/header.jpg');
+}
+.certification-program-section .container{
+  max-width:1050px;
+}
+.certification-program-section .hr-line{
+  margin-top:80px;
+  margin-bottom:80px;
+}
+.certification-program-section .certified-partner .certified-para{
+  font-size:19px;
+  max-width:800px;
+  margin:auto;
+  padding-top:90px;
+  color:#0c1519;
+}
+.certification-program-section .certified-partner h1{
+  font-size:40px;
+  margin-bottom:20px;
+}
+.certification-program-section .certified-partner img{
+  margin-top:50px;
+}
+.certification-program-section .certified-partner strong{
+  color:#0c1519;
+  font-size:20px;
+  font-weight: bold;
+}
+.certification-program-section .certified-partner p{
+ color:#747474;
+ font-size:19px; 
+ margin-bottom:20px;
+}
+.certification-program-section  .how-to-get-there h1{
+  text-align: center;
+  font-size:42px;
+  font-weight: bold;
+  color:#2a5973;
+}
+.certification-program-section  .how-to-get-there h2{
+  text-align: center;
+  font-size:37px;
+  margin-top:25px;
+  color:#2a5973;
+  margin-bottom:30px;
+}
+.certification-program-section  .how-to-get-there img{
+  display:block;
+  margin:auto;
+  margin-top:20px;
+}
+.certification-program-section ul li{
+  font-size:15px;
+}
+
+.certification-program-section .questions-certification-prog h1{
+  font-size:40px;
+}
+.certification-program-section .questions-certification-prog p{
+  font-size:19px;
+  margin-top:20px;
+}
+.certification-program-section .questions-certification-prog a{
+  font-size:20px;
+  padding:15px 40px !important;
+  margin-top:15px;
+}
+.certification-program-section .questions-certification-prog{
+  padding-bottom:110px;
+}
+
+
+/**************************
+      webinars page
+***************************/
+.webinars-section .webinars-banner{
+  background-image: url('img/Webinar_header.jpg');
+}
+.webinars-section .missed-a-webinar{
+  padding-top:90px;
+  padding-bottom:90px;
+}
+.webinars-section .container{
+  max-width:1050px;
+}
+.webinars-section .missed-webinar-line{
+  margin-top:60px;
+  margin-bottom:60px;
+}
+.webinars-section .missed-a-webinar iframe{
+  width:100% !important;
+}
+.webinars-section .missed-a-webinar h2{
+  padding-bottom:13px;
+  padding-top:30px;
+}
+.webinars-section .missed-a-webinar .upcoming-webinars .hr-line{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.webinars-section .missed-a-webinar .webinar-bottom-line{
+  margin:60px 0px;
+}
+
+
+/**************************
+  partner-program-customer-sign-up
+***************************/
+.partner-customer-signup-section .partner-customer-signup-banner{
+  background-image: url('img/shutterstock_252902776.jpg');
+}
+.partner-customer-signup-form .container{
+  max-width:1010px;
+}
+.partner-customer-signup-section .partner-customer-signup-form{
+  padding-top:80px;
+  padding-bottom:80px;
+}
+.partner-customer-signup-section .partner-customer-signup-form .sp-para{
+  font-size:19px;
+  margin-top:20px;
+  margin-bottom:25px;
+}
+
+
+/**************************
+  partner-program-customer-sign-up
+***************************/
+.marketing-resources-section .marketing-resources-banner{
+  background-image: url('img/partner_page_header.jpg');
+}
+.marketing-resources-section .container{
+  max-width:1000px;
+}
+.marketing-resources-section .local-business{
+  padding-top:130px;
+}
+.marketing-resources-section .local-business p{
+  max-width:750px;
+  margin:auto;
+  margin-top:20px;
+  font-size:19px;
+  margin-bottom:20px;
+  color:#0c1519;
+}
+.marketing-resources-section .local-business .watch-heading{
+  font-size:40px;
+  margin-top:60px;
+  margin-bottom:30px;
+}
+.marketing-resources-section .local-business iframe{
+  width:100%;
+}
+.marketing-resources-section .hr-line{
+  margin-top:80px;
+  margin-bottom:80px;
+}
+.marketing-resources-section .elevator-pitch h1{
+  font-size:40px;
+  margin-bottom:25px;
+}
+.marketing-resources-section .elevator-pitch p{
+  font-size:18px;
+  margin-bottom:20px;
+}
+.marketing-resources-section .elevator-pitch strong{
+ color:#0c1519;
+}
+.marketing-resources-section .selling-collateral h1{
+  font-size:42px;
+  text-align: center;
+}
+.marketing-resources-section .selling-collateral img{
+  width:65%;
+  display:block;
+  margin-bottom:30px;
+  margin-top:40px;
+}
+.marketing-resources-section .selling-collateral strong{
+  font-size:18px;
+  color:#0c1519;
+  display:block;
+  margin-bottom:10px !important;
+}
+.marketing-resources-section .selling-collateral ul li a{
+  font-size:18px;
+  color: #4d6d80;
+  text-decoration: underline;
+}
+.marketing-resources-section  .phone-look-up h1{
+ font-size:41px;
+ margin-bottom:20px;
+}
+.marketing-resources-section  .phone-look-up p{
+  font-size:18px;
+}
+.marketing-resources-section  .phone-look-up a{
+  font-size:17px;
+  margin-top:20px;
+  padding:15px 40px !important;
+}
+.marketing-resources-section .sp-visuals img{
+  width:100%;
+}
+.marketing-resources-section .sp-visuals h1{
+  font-size:41px;
+  margin-bottom:30px;
+}
+.marketing-resources-section .sp-visuals ul{
+  margin-bottom:35px;
+}
+.marketing-resources-section .sp-visuals ul li a{
+  font-size:16px;
+  color: #4d6d80;
+  margin-bottom:3px;
+  display:block;
+  text-decoration: underline;
+}
+.marketing-resources-section .sp-visuals p{
+  font-size:19px;
+  color:#0c1519;
+}
+.marketing-resources-section .sp-visuals .sp-v-map{
+  margin-top:-20px;
+}
+.marketing-resources-section .sp-visuals .sp-visuals-mul-col a{
+  color: #4d6d80;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.marketing-resources-section .sp-visuals .sp-visuals-mul-col img{
+  margin-bottom:-5px;
+}
+.marketing-resources-section .sp-visuals .sp-visuals-mul-col .brand-guideline-text{
+  margin-top:30px;
+}
+.marketing-resources-section .success-stories h1{
+  font-size:42px;
+  margin-bottom:55px;
+}
+.marketing-resources-section .success-stories .success-stories-flexslider img{
+  width:100%;
+}
+.marketing-resources-section .success-stories .success-stories-flexslider .name{
+  display:block;
+  color:#666;
+  font-size:20px;
+  margin-top:13px;
+  text-decoration: none;
+}
+.marketing-resources-section .success-stories .success-stories-flexslider .address{
+  color: rgba(26,26,26,.5);
+  text-decoration: none;
+  margin-top:8px;
+  display:block;
+  font-size:12px !important;
+}
+.marketing-resources-section .success-stories .feature{
+  color:#666;
+  font-size:14px;
+}
+.marketing-resources-section .success-stories .pre-button{
+  font-size:20px;
+  opacity: .4;
+  cursor: pointer;
+  margin-right:20px;
+  padding:5px;
+}
+.marketing-resources-section .success-stories .next-button{
+  font-size:19px;
+  opacity: .4;
+  padding:5px;
+  cursor: pointer;
+  margin-bottom:15px;
+}
+.marketing-resources-section .success-stories .fas:hover{
+  opacity: 1;
+}
+.marketing-resources-section .misconceptions h1{
+  font-size:44px;
+}
+.marketing-resources-section .misconceptions a{
+  padding:17px 35px !important;
+  margin-top:10px;
+  font-size:16px;
+}
+.marketing-resources-section .video-orientation{
+  padding-bottom:120px;
+}
+.marketing-resources-section .small-con{
+  max-width:825px;
+}
+.marketing-resources-section .video-orientation h1{
+  font-size:40px;
+  margin-bottom:30px;
+}
+.marketing-resources-section .video-orientation iframe{
+  width:100%;
+}
+.marketing-resources-section .video-orientation .think-text{
+  margin-top:70px;
+}
+.marketing-resources-section .video-orientation a{
+  padding:15px 35px !important;
+  font-size:17px;
+  margin-bottom:10px;
+}
+/**************************
+        meeting
+***************************/
+.meeting-section{
+  padding:120px 0px;
+}
+.meeting-section .meeting-box{
+  background-color:#4D6D80;
+  padding:20px 30px;
+  max-width:570px;
+  margin:auto;
+}
+.meeting-section .meeting-box h1{
+  color:#fff;
+  font-size:26px;
+  padding-bottom:20px;
+}
+.meeting-section .meeting-box input{
+  width:100%;
+  padding: 11px 18px;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  color: #000;
+  font-size: 15px !important;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.meeting-section .meeting-box a{
+  margin:auto;
+  display:block;
+  width:80%;
+  margin-top:40px;
+  font-size:18px;
+  padding:10px;
+}
+.meeting-section .meeting-box p{
+  color:#fff;
+  font-size:13px;
+  margin-top:30px;
+  margin-bottom:20px;
+}
+
+
+/**************************
+ feedbackpartner program page
+***************************/
+.feedbackpartner-section{
+  padding:90px 0px;
+}
+.feedbackpartner-section .container{
+  max-width:1020px;
+}
+.feedbackpartner-section img{
+  width:67%;
+}
+.feedbackpartner-section .sp-heading{
+  font-size:40px;
+  margin-bottom:25px;
+}
+
+/**************************
+ refer a partner page
+***************************/
+.refer-a-partner-section .refer-a-partner-banner{
+  background-image:url('img/refer_a_partner_header.jpg');
+}
+.refer-a-partner-section .container{
+  max-width:970px;
+}
+.refer-a-partner-section .sp-certified-pro{
+  padding-top:70px;
+}
+.refer-a-partner-section .sp-certified-pro p{
+  font-size:19px;
+  padding-top:25px;
+}
+.refer-a-partner-section .sp-certified-pro strong{
+  color:#000;
+  font-weight: bold;
+  font-size:20px;
+}
+.refer-a-partner-section .refer-today h1{
+  font-size:40px;
+  padding-top:25px;
+  margin-bottom:30px;
+}
+
+
+
+/**************************
+          Contact-US
+***************************/
+.contact-us .contact-us-banner{
+  background-image: url(https://i2b7m8w8.stackpathcdn.com/wp-content/uploads/2019/03/shutterstock_330541472.jpg);
 }
 .contact-us .main_area h1{
   margin-top: 130px;
@@ -1459,11 +2288,10 @@ width:175px;
 .contact-us .main_area p{
   font-size: 22px;
 }
-
 .contact-us .details-area{
   margin-top: 60px;
+  margin-bottom: 90px
 }
-
 .contact-us .details-area p{
   font-size: 18px
 }
@@ -1471,74 +2299,67 @@ width:175px;
 /**************************
           FAQ-PAGE CSS
 ***************************/
-
 .faq-section {    
-    margin-top: 100px;
-    font-family: "Reem Kufi";
-    font-weight: 400;
-    color: #193648;
+  margin-top: 90px;
+  font-family: "Reem Kufi";
+  font-weight: 400;
+  color: #193648;
 }
-
+.faq-section .container{
+  max-width:1020px;
+}
 .faq-section h1{
   font-size: 38px; 
 }
-
 .faq-section h2{
-  margin-top: 60px;
+  margin-top: 55px;
   font-size: 34px;
 }
-
-
 /* Collapse*/
 .faq-questions {
-  padding: 0 30px;
-  padding-top: 145px;
+  padding-top: 100px;
+  padding-bottom:100px;
 }
-
-.q-container{
-  padding-bottom: 30px;
-}
-
 .faq-questions .panel-title a{
-    font-family: "Reem Kufi";
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0px;
-    display: block;
-    padding: 12px 15px 12px 50px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #444444;
-    position: relative;
+  font-family: "Reem Kufi";
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  display: block;
+  padding: 10px 15px 10px 50px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  position: relative;
 }
 .faq-questions .panel-title a:before{
-    content: "\f068";
-    font-family: "Font Awesome 5 Free";
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    background: #444444;
-    font-size: 16px;
-    font-weight: 900;
-    color: #fdfbfb;
-    text-align: center;
-    text-shadow: none;
-    position: absolute;
-    top: 8px;
-    left: 10px;
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: #444444;
+  font-size: 16px;
+  font-weight: 900;
+  color: #fdfbfb;
+  text-align: center;
+  text-shadow: none;
+  position: absolute;
+  top: 8px;
+  left: 10px;
 }
-.faq-questions .panel-title a.collapsed:before{ content: "\f067"; }
-
+.faq-questions .panel-title a.collapsed:before{
+ content: "\f067"; 
+}
 .faq-questions .panel-body{
-    color: #444444;
-    font-family: 'Montserrat';
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
-    padding: 10px;
-    padding-left:50px;
+  color: #444444;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 10px;
+  padding-left:50px;
 }
-
 /**************************
           Footer
 ***************************/
@@ -1548,61 +2369,54 @@ footer{
   color: #fff
 
 }
-
 footer ul li{
   text-transform: uppercase;
   font-family: 'Reem Kufi', sans-serif;
   font-size: 12px;
   padding: 5px;
 }
-
 footer ul li a{
   color: #fff;
 }
-
 footer ul li a:hover,footer ul li a:active,footer ul li a:visited{
   color: #fff;
   text-decoration: none !important;
 }
-
 footer .footer-left-img{
   padding-right: 70px;
   vertical-align: top;
 }
-
 footer .footer-address{
   font-family: 'Montserrat';
   font-size: 12px;
   text-align: right;
 }
-
 footer .footer-social-icons{
   margin-top: 20px;
   margin-left: -15px; 
 }
-
 footer .footer-social-icons a{
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: #fff;
 }
-
 footer .footer-bottom{
   padding-top: 90px;
 }
-
 footer .footer-bottom p{
   margin: 5px;
 }
-
 footer .footer-bottom p a{
   text-decoration: none;
   color: #fff;
 }
+
+
+
 
 /* ==========================================================================
   custom responsive styles
@@ -1670,6 +2484,19 @@ footer .footer-bottom p a{
   margin-top:20px;
   margin-bottom:20px;
  }
+ .homestead-partnership-section .homestead-banner{
+  padding-left:0px;
+  padding-right:0px;
+  text-align: center;
+}
+.homestead-partnership-section .reach-more-customers .content-box{
+  padding-left:0px;
+  padding-right:10px;
+  text-align: center;
+}
+.marketing-resources-section .sp-visuals .sp-visuals-mul-col img{
+  width:auto;
+}
 }
 /*551*/
 @media (max-width: 767px) {
@@ -1690,6 +2517,15 @@ footer .footer-bottom p a{
 .careers-section .opportunities-content a{
   text-align: center;
   display: block;
+}
+
+.marketing-resources-section .selling-collateral img{
+  width:55%;
+  margin-top:50px;
+  margin-bottom:20px;
+}
+.marketing-resources-section .local-business iframe{
+  height:300px;
 }
 
 }
@@ -1724,6 +2560,13 @@ footer .footer-bottom p a{
 }
 .careers-section .sp-life-content img{
   width:100%;
+}
+.plan-section{
+  padding-left:0px;
+  padding-right:0px;
+}
+.marketing-resources-section .video-orientation iframe{
+  height:260px;
 }
 }
 @media(max-width:340px) {

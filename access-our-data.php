@@ -2,9 +2,9 @@
 include("header.php");
 ?>
 
-  <section class="access-our-data-section">
+  <div class="access-our-data-section">
     
-    <div class="access-data-banner partner-referral-banner">
+    <section class="access-data-banner partner-referral-banner">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -12,7 +12,7 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <div class="access-data-body partner-referral-body">
       <div class="container">
@@ -36,7 +36,7 @@ include("header.php");
       </div>
     </div>
 
-  </section>
+  </div>
  
 <?php 
 include("footer.php");

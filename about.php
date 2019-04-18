@@ -2,9 +2,9 @@
 include("header.php");
 ?>
 
-  <section class="about-section">
+  <div class="about-section">
     
-    <div class="mission-value">
+    <section class="mission-value sp-header-banner2">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -13,8 +13,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
-    <div class="who-are-we">
+    </section>
+
+    <section class="who-are-we">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -55,11 +56,13 @@ include("header.php");
             </div>
         </div>
       </div>
-    </div>
+    </section>
+
     <div class="values-helps">
       <h1>These values helps us in our mission to provide growth developpment through our specialized expertise and inovative solutions.</h1>
     </div>
-    <div class="growth-development">
+
+    <section class="growth-development">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-4">
@@ -82,8 +85,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
-    <div class="trust-singleplatform">
+    </section>
+
+    <section class="trust-singleplatform">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -92,9 +96,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-  </section>
+  </div>
  
 <?php 
 include("footer.php");
