@@ -2,9 +2,9 @@
 include("header.php");
 ?>
 
-  <section class="chownow-section">
+  <div class="chownow-section">
     
-    <div class="chownow-banner marketplace-referral-banner">
+    <section class="chownow-banner marketplace-referral-banner sp-header-banner">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -12,9 +12,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="chownow-body marketplace-referral-body">
+    <section class="chownow-body marketplace-referral-body">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-6">
@@ -35,9 +35,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-  </section>
+  </div>
  
 <?php 
 include("footer.php");

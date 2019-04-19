@@ -1,8 +1,9 @@
 <?php
 include("header.php");
 ?>
-<section class="plan-section">
-	<div class="plan-text">
+<div class="plan-section">
+
+	<section class="plan-text">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
@@ -11,9 +12,9 @@ include("header.php");
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 	
-	<div class="plan-table">
+	<section class="plan-table">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-md-4">
@@ -124,8 +125,6 @@ include("header.php");
 						</div>
 					</div>
 				</div>
-
-
 
 				<div class="col-xs-12 col-md-4">
 					<div class="plan-box-container plan-box-two">
@@ -372,7 +371,6 @@ include("header.php");
 									</div>
 								</div>
 
-
 								<div class="panel panel-default">
 									<div class="panel-heading">
 										<h4 class="panel-title">
@@ -446,8 +444,7 @@ include("header.php");
 											Newsletter/Mailing List Sign Up Feed
 										</div>
 									</div>
-								</div>
-								
+								</div>	
 
 							</div>
 						</div>
@@ -457,8 +454,9 @@ include("header.php");
 				
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
+
+</div>
 <?php
 include("footer.php");
 ?>

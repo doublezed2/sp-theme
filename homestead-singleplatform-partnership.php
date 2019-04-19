@@ -2,9 +2,9 @@
 include("header.php");
 ?>
 
-  <section class="homestead-partnership-section"> 
+  <div class="homestead-partnership-section"> 
     
-    <div class="homestead-banner">
+    <section class="homestead-banner">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-6">
@@ -21,9 +21,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="reach-more-customers">
+    <section class="reach-more-customers">
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 col-md-6 img-box hidden-xs hidden-sm">
@@ -39,9 +39,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-     <div class="reach-more-customers happy-customers">
+     <section class="reach-more-customers happy-customers">
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 col-md-6">
@@ -58,9 +58,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="customers-says">
+    <section class="customers-says">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-12 text-center">
@@ -71,9 +71,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-  </section>
+  </div>
  
 <?php 
 include("footer.php");

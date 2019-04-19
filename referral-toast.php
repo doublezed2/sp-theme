@@ -2,9 +2,9 @@
 include("header.php");
 ?>
 
-  <section class="toast-banner-section">
+  <div class="toast-banner-section">
     
-    <div class="toast-banner marketplace-referral-banner">
+    <section class="toast-banner marketplace-referral-banner sp-header-banner">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -12,9 +12,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="toast-body marketplace-referral-body">
+    <section class="toast-body marketplace-referral-body">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-6">
@@ -40,9 +40,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-  </section>
+  </div>
  
 <?php 
 include("footer.php");

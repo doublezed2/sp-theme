@@ -2,9 +2,9 @@
 include("header.php");
 ?>
 
-  <section class="seated-section">
+  <div class="seated-section">
     
-    <div class="seated-banner marketplace-referral-banner">
+    <section class="seated-banner marketplace-referral-banner sp-header-banner">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -12,9 +12,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="seated-body marketplace-referral-body">
+    <section class="seated-body marketplace-referral-body">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-6">
@@ -31,12 +31,11 @@ include("header.php");
             <h1 class="gform-title">Interested In Getting More Customers SEATED?</h1>
             <form id="gform_3"></form>
           </div>
-          
         </div>
       </div>
-    </div>
+    </section>
 
-  </section>
+  </div>
  
 <?php 
 include("footer.php");

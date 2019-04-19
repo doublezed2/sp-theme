@@ -2,8 +2,9 @@
 include("header.php");
 ?>
 	
-	<section class="pricing-section">
-		<div class="pricing-text">
+	<div class="pricing-section">
+
+		<section class="pricing-text">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
@@ -13,9 +14,9 @@ include("header.php");
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		
-		<div class="pricing-table">
+		<section class="pricing-table">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-xs-12 col-md-4">
@@ -110,8 +111,9 @@ include("header.php");
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+		
+	</div>
 
 <?php 
 include("footer.php");

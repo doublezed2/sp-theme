@@ -2,8 +2,9 @@
 include("header.php");
 ?>
 
- <section class="parked-domain-section">
-   <div class="container">
+ <div class="parked-domain-section">
+
+   <section class="container">
      <div class="row">
        <div class="col-xs-12 col-md-6">
          <h1 class="text-center">Your domain is registered, your site is built and ready. Now, let’s turn it back on!</h1>
@@ -14,15 +15,17 @@ include("header.php");
          <img src="img/parked-domain.jpg">
        </div>
      </div>
-   </div>
-   <div class="container">
+   </section>
+
+   <section class="container">
      <div class="row">
        <div class="col-md-12 text-center">
          <p class="footer-copy-rights">&copy; SinglePlatform 2018 All Right Reserved</p>
        </div>
      </div>
-   </div>
- </section>
+   </section>
+
+ </div>
 
 <?php 
 include("footer.php");

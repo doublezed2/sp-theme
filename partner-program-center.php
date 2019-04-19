@@ -3,6 +3,7 @@ include("header.php");
 ?>
 	
 	<div class="partner-program-section">		
+
 		<section class="partner-program-banner sp-header-banner">
       <div class="container">
         <div class="row">
@@ -67,6 +68,7 @@ include("header.php");
 				</div>
 			</div>
 		</section>
+		
 	</div>
 
 <?php

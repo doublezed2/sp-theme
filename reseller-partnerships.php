@@ -2,9 +2,9 @@
 include("header.php");
 ?>
 
-  <section class="reseller-partnerships-section">
+  <div class="reseller-partnerships-section">
     
-    <div class="reseller-partnerships-banner partner-referral-banner">
+    <section class="reseller-partnerships-banner partner-referral-banner sp-header-banner">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -12,9 +12,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="reseller-partnerships-body partner-referral-body">
+    <section class="reseller-partnerships-body partner-referral-body">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-6">
@@ -31,9 +31,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-  </section>
+  </div>
  
 <?php 
 include("footer.php");

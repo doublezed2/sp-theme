@@ -2,9 +2,9 @@
 include("header.php");
 ?>
 
-  <section class="ordereze-section">
+  <div class="ordereze-section">
     
-    <div class="ordereze-banner marketplace-referral-banner">
+    <section class="ordereze-banner marketplace-referral-banner sp-header-banner">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -12,9 +12,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="ordereze-body marketplace-referral-body">
+    <section class="ordereze-body marketplace-referral-body">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-6">
@@ -33,9 +33,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-  </section>
+  </div>
  
 <?php 
 include("footer.php");

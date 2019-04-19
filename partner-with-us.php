@@ -2,9 +2,9 @@
 include("header.php");
 ?>
 
-  <section class="partner-section" >
+  <div class="partner-section" >
     
-    <div class="partner-banner">
+    <section class="partner-banner sp-header-banner2">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -14,9 +14,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="partner-body">
+    <section class="partner-body">
       <div class="partners-trusted">
         <div class="container">
           <div class="row">
@@ -97,9 +97,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
     
-  </section>
+  </div>
  
 <?php 
 include("footer.php");

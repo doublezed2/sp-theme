@@ -2,9 +2,9 @@
 include("header.php");
 ?>
 
-  <section class="menu-lp-section">
+  <div class="menu-lp-section">
 
-    <div class="more-customers">
+    <section class="more-customers">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-12 text-center">
@@ -24,9 +24,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="menu-lp-partners">
+    <section class="menu-lp-partners">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -34,9 +34,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="watch-lp-menu">
+    <section class="watch-lp-menu">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-12 text-center">
@@ -47,9 +47,9 @@ include("header.php");
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-  </section>    
+  </div>    
  
 <?php 
 include("footer.php");
